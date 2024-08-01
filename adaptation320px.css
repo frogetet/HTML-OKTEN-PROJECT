@@ -1,0 +1,186 @@
+@media screen and (max-width: 320px) {
+    .first, .second, .third, .fourth, .fifth, .sixth {
+        width: 320px;
+        margin: 0 auto
+    }
+
+    .first {
+        padding: 30px 10px 0 10px; gap:60px;
+    }
+
+    li {
+        display: none
+    }
+
+    .first > section {
+        width: 300px;
+        display: flex;
+        flex-direction: column
+    }
+    .first>section>img{width: 260px; margin-left: 50px}
+
+    .abtshelt, .ourfriends{
+        width: 300px;}
+    .abtshelt>img{width: 260px; height: 353.6px;}
+
+    .content1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .content1 > h2 {
+        width: 250px;
+        color: #FFF;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 130%; /* 32.5px */
+        letter-spacing: 1.5px;
+    }
+
+    section > img {
+        width: 300px;
+    }
+
+    .content1 > p {
+        width: 300px;
+        color: #CDCDCD;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+    .second{
+        padding: 42px 10px;
+        }
+
+    .abtshelt {
+        display: flex;
+        justify-content: start;
+        flex-direction: column-reverse;
+        height: 974px;
+        padding: 0;
+    }
+
+
+    .abtshelt > div > h3 {
+        width: 250px;
+        color: #545454;
+        text-align: center;
+        font-family: Georgia, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 1.5px;
+    }
+    .abtshelt>div>p{width: 270px;
+        flex-shrink: 0;
+        color: #4C4C4C;
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 160%;}
+
+    .ourfriends > h3 {
+        width: 300px;
+        color: #545454;
+        text-align: center;
+        font-family: Georgia, sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 1.5px;
+    }
+
+    .katerine, .jenifer {
+        display: none
+    }
+    .howyouch{height: 745px;display: flex;
+        width: 320px;
+        padding: 42px 15px 12px 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;}
+
+
+    .howyouch>h3{color:#545454;
+        text-align: center;
+
+        font-family: Georgia, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 1.5px;}
+    .howyouch>div{display: flex; justify-content: space-between; flex-wrap: wrap; width: 290px;
+         gap: 0;}
+    .svg{
+        width: 130px; gap:20px; padding-bottom: 30px}
+    .svg>h4{color: #545454;
+        text-align: center;
+        font-family: Georgia, sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: 0.9px;}
+    .fourth{ gap: 0; padding: 0}
+    .youcanal{flex-direction: column-reverse; width: 300px}
+    .youcanal>div>h3{color:#545454;
+        text-align: center;
+        /* h3-mobile */
+        font-family: Georgia, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 32.5px */
+        letter-spacing: 1.5px;}
+    .youcanal>div{
+        width: 300px; justify-content: center; align-items: center}
+    .youcanal>div>h5{color: #545454;
+        font-family: Georgia, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 160%;}
+    .credit>h4{color: #545454;
+        /* h5 */
+        font-family: Georgia,sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;}
+    .youcanal>div>p{width: 280px;
+        color: #B2B2B2;
+        text-align: justify;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 18px; /* 150% */}
+    .fifth{
+        width: 320px; padding: 42px 10px}
+    .youcanal>img{width: 260px}
+    .sixth{height: 930px; padding: 0}
+    footer{flex-direction: column; gap: 40px;
+        width: 280px; margin: 0;
+        height: 900px;}
+    footer>div>h3{color: white;
+        text-align: center;
+        font-family: Georgia, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 1.5px;}
+    footer>div{justify-content: center;
+        width: 280px;}
+    header{
+        width: 300px;}
+    footer>img{
+        width: 260px; margin-left: 10px}
+}
